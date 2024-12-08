@@ -17,7 +17,12 @@
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#00824F"
       },
-      "package": "com.intriveapp"
+      "package": "com.intriveapp",
+      "splash": {
+        "image": "./assets/images/splash-screen.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#00824F"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -29,8 +34,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/splash-screen.png",
           "resizeMode": "contain",
           "backgroundColor": "#00824F"
         }
