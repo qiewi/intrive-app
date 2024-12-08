@@ -4,7 +4,7 @@
     "slug": "intrive-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app-icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,12 +14,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.png",
+        "foregroundImage": "./assets/images/app-icon.png",
         "backgroundColor": "#00824F"
       },
       "package": "com.intriveapp",
       "splash": {
-        "image": "./assets/images/splash-screen.png",
+        "image": "./assets/images/icon.png",
         "resizeMode": "contain",
         "backgroundColor": "#00824F"
       }
@@ -34,7 +34,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-screen.png",
+          "image": "./assets/images/icon.png",
           "resizeMode": "contain",
           "backgroundColor": "#00824F"
         }
